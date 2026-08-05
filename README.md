@@ -1,105 +1,98 @@
-# Data-Structures-and-Algorithms
-My C++ implementations and coursework for Data Structures and Algorithms.
-# Assignment 1 – Linked List Manager (C++)
+# 📚 Data Structures and Algorithms
 
-## Overview
-This project is a C++ implementation of a **singly linked list** developed as part of a Data Structures and Algorithms coursework. It demonstrates the use of dynamic memory management, modular programming, file I/O, and command-line arguments in a Linux environment.
-The application provides an interactive command-driven interface that allows users to perform common linked list operations while reading from and writing to files.
+Welcome to my **Data Structures and Algorithms** repository!
 
-## Features
-* Insert a node at the beginning of the list
-* Append a node to the end of the list
-* Delete a node by key
-* Search for a node
-* Print the linked list
-* Find the maximum value
-* Find the minimum value
-* Calculate the sum of all elements
-* Display the current list length
-* Read data from an input file
-* Write data to an output file
-* Release dynamically allocated memory
+This repository contains my C++ implementations and coursework completed as part of my university **Data Structures and Algorithms** course. Throughout these assignments, I explored fundamental data structures, graph algorithms, dynamic memory management, and algorithm design while developing applications in a Linux environment.
 
-## Concepts Demonstrated
-* Singly Linked Lists
-* Dynamic Memory Allocation (`malloc` / `free`)
-* File Input and Output
-* Command-Line Arguments
-* Modular Programming
-* Header and Source File Organization
-* Makefiles
-* Linux Development Environment
 
-## Project Structure
-```text
-Assignment01-LinkedList/
+## 📖 Repository Structure
+```
+Data-Structures-and-Algorithms/
 │
-├── main.cpp
-├── util.cpp
-├── list_read.cpp
-├── list_write.cpp
-├── structs.h
-├── util.h
-├── list_read.h
-├── list_write.h
-├── Makefile
-└── README.md
+├── Assignment01-LinkedList/
+├── Assignment02-MinHeap-PriorityQueue/
+├── Assignment03-Graph-Traversal/
+├── Assignment04-Dijkstra-Shortest-Paths/
+└── ...
 ```
 
-## Building the Project
-Compile the project using the provided Makefile:
+## 🚀 Assignments
+
+| Assignment | Topic | Concepts |
+|------------|-------|----------|
+| ✅ Assignment 1 | Linked List | Dynamic Memory, File I/O, Linked Lists |
+| ✅ Assignment 2 | Min Heap Priority Queue | Heaps, Priority Queues, Heap Operations |
+| ✅ Assignment 3 | Graph Traversal | Graphs, BFS, DFS, Adjacency Lists |
+| ✅ Assignment 4 | Dijkstra's Shortest Paths | Graph Algorithms, Min Heap, Shortest Paths |
+
+
+## 💻 Technologies Used
+- C++
+- Linux
+- g++
+- Makefile
+- Git and GitHub
+
+## 🧠 Topics Covered
+- Linked Lists
+- Dynamic Memory Allocation
+- File Input / Output
+- Command-Line Programming
+- Priority Queues
+- Min Heaps
+- Graph Representation
+- Breadth-First Search (BFS)
+- Depth-First Search (DFS)
+- Dijkstra's Shortest Path Algorithm
+- Stacks
+- Queues
+- Adjacency Lists
+- Algorithm Analysis
+- Modular Programming
+
+## 🛠️ Building the Projects
+Each assignment contains its own **Makefile**.
+
+To compile an assignment:
 
 ```bash
+cd Assignment01-LinkedList
 make
 ```
 
-This generates the executable:
-
-```text
-PJ1
-```
-
-## Running the Program
-Example:
+or
 
 ```bash
-./PJ1 input.txt output.txt 2
+cd Assignment04-Dijkstra-Shortest-Paths
+make
 ```
 
-where:
+## 🎯 Learning Objectives
+Through these projects, I developed practical experience with:
 
-* `input.txt` contains the input data
-* `output.txt` is the generated output file
-* `2` is the program flag controlling output behavior
+- Designing efficient data structures
+- Implementing classical algorithms from scratch
+- Writing modular and maintainable C++ code
+- Working with pointers and dynamic memory
+- Developing command-line applications on Linux
+- Debugging and optimizing algorithm implementations
+- Managing projects using Git and GitHub
 
-The program accepts commands interactively (or through redirected input), such as:
-```text
-Read
-Append 10
-Insert 5
-Print
-Max
-Search 10
-Delete 5
-Stop
-```
+## 📂 Future Additions
+This repository will continue to grow as I complete more coursework and independent projects, including:
 
-## Learning Outcomes
-Through this project, I gained practical experience with:
-* Implementing and manipulating linked lists
-* Managing dynamic memory safely
-* Designing modular C++ programs
-* Working with command-line applications on Linux
-* Reading from and writing to files
-* Building projects using Makefiles
+- AVL Trees
+- Red-Black Trees
+- Hash Tables
+- Minimum Spanning Trees
+- Network Flow Algorithms
+- Dynamic Programming
+- Advanced Graph Algorithms
 
-## Technologies Used
-* **Language:** C++
-* **Compiler:** g++
-* **Platform:** Linux (Ubuntu)
-* **Build Tool:** Make
+## 📜 Academic Note
+These projects were completed as part of my university coursework and are shared for educational and portfolio purposes. The repository primarily contains my own implementations. Official course materials, starter code, and grading resources are excluded where redistribution may conflict with course policies.
 
-## Notes
-This repository showcases my implementation completed as part of a university Data Structures and Algorithms course. It is intended for educational and portfolio purposes.
 
-Official assignment materials, starter code, and grading test cases are not included where redistribution may conflict with course policies.
+## 👨‍💻 Author
+**Dhanashree Somani**
+Computer Science Student
